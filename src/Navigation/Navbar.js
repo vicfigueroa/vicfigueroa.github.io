@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light justify-content-center">
+        <h1>Victoria Figueroa</h1>
         <ul className="navbar-nav">
         <li className='nav-item'>
           <Link className='nav-link' to='/'>Home</Link>

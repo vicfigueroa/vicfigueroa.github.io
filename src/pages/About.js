@@ -1,6 +1,14 @@
+import React from "react";
+import Footer from "../Navigation/Footer";
+import '../App.css';
+
 const About = () => {
     return (
-        <p>About Me</p>
+        <div className="about">
+            <p>About Me</p>
+            <Footer />
+        </div>
+
     )
 }
 

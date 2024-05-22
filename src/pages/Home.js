@@ -1,6 +1,13 @@
+import React from "react";
+import Footer from "../Navigation/Footer";
+import DynamicString from "../components/DynamicString";
+
 const Home = () => {
     return (
-        <p>Home Page</p>
+        <div>
+        <DynamicString />
+        <Footer />
+    </div>
     )
 }
 
