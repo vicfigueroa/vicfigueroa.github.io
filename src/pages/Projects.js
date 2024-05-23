@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div>
         <p>Projects</p>
-        <Footer />
+
     </div>
     )
 }

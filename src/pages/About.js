@@ -6,7 +6,6 @@ const About = () => {
     return (
         <div className="about">
             <p>About Me</p>
-            <Footer />
         </div>
 
     )

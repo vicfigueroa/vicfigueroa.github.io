@@ -20,7 +20,6 @@
 }
 
 .footer {
-  position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -33,4 +32,84 @@
 .navbar {
   display: flex;
   flex-direction: column;
+}
+
+/* App.css */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   /* Full viewport height */
+}
+
+.skill-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skillTitle {
+  width: 100%; /* Ensures the title takes the full width of the section */
+  text-align: center; /* Center-aligns the title */
+  color: #E493B3;
+}
+
+.skill {
+  background-color: white;
+  border-color: pink;
+  border-style: solid;
+  border-width: thin;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 95%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.skill:hover {
+  background-color: pink;
+  color: gray;
+}
+
+/* DynamicString.css */
+.dynamic-text {
+  text-align: center;
+  font-size: 2em; /* Adjust size as needed */
+  font-weight: bold; /* Optional: make the text bold */
+
+}
+
+.typing-text {
+  white-space: nowrap;
+  overflow: hidden;
+  color: #E493B3;
+  border-right: 0.15em solid #000; /* Adjust color as needed */
+  animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black; /* Adjust color as needed */
+  }
 }
