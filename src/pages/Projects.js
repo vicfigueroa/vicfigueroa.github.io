@@ -1,13 +1,13 @@
-import React from "react";
-import Footer from "../Navigation/Footer";
+// import React from "react";
+// import Footer from "../Navigation/Footer";
 
-const Projects = () => {
-    return (
-        <div>
-        <p>Projects</p>
+// const Projects = () => {
+//     return (
+//         <div>
+//         <p>Projects</p>
 
-    </div>
-    )
-}
+//     </div>
+//     )
+// }
 
-export default Projects;
+// export default Projects;
