@@ -1,9 +1,11 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light justify-content-center">
+         <img src={process.env.PUBLIC_URL + '/acpic.png'} width="15%" height="15%" />
         <h1>Victoria Figueroa</h1>
         <ul className="navbar-nav">
         <li className='nav-item'>
@@ -16,7 +18,7 @@ const Navbar = () => {
           <Link className='nav-link' to='/Projects'>Projects</Link>
         </li>
           <li className="nav-item">
-            <a className="nav-link" href="">
+            <a className="nav-link" href={process.env.PUBLIC_URL + '/resume.pdf'} target="_blank">
               Resume
             </a>
           </li>
