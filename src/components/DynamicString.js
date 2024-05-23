@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 const DynamicString = () => {
-  const words = ["a Software Engineer", "Videographer", "a Foodie", "Traveler"];
+  const words = ["a Software Engineer", "Videographer", "a Foodie", "Traveler", "Streamer"];
   const [index, setIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [typing, setTyping] = useState(true);
@@ -20,9 +20,9 @@ const DynamicString = () => {
             setTyping(true);
             setIndex((prevIndex) => (prevIndex + 1) % words.length);
             setDisplayedText("");
-          }, 2000); // Wait for 2 seconds before typing the next word
+          }, 2000);
         }
-      }, 100); // Typing speed
+      }, 100);
     }
 
     return () => clearTimeout(typingTimeout);

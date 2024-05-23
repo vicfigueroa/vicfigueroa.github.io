@@ -10,6 +10,7 @@ const Skills = () => {
                 <span className='skill'>HTML</span>
                 <span className='skill'>CSS</span>
                 <span className='skill'>React</span>
+                <span className='skill'>Swift</span>
             </div>
             <div className="skill-section">
                 <h4 className="skillTitle">Back End</h4>

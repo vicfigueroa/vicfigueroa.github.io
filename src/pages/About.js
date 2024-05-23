@@ -5,7 +5,19 @@ import '../App.css';
 const About = () => {
     return (
         <div className="about">
-            <p>About Me</p>
+            <h1>Welcome!</h1>
+            <div className="about-container">
+                <div className="about-pic-container">
+                    <img src="japanpfp.jpg" alt="japanpfp" className="pic" />
+                </div>
+                <div className="about-bio-container">
+                    <p>I am currently an Associate Software Engineer at Domenix and based out of the DMV area.
+                        I received a B.A. in Film and Video Studies from George Mason University.
+                        When I'm not working I enjoy traveling, streaming, and hanging out with friends!
+
+                        My inbox is always open! Feel free to contact me through LinkedIn if you'd like to chat!</p>
+                </div>
+            </div>
         </div>
 
     )
