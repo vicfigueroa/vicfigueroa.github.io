@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 const DynamicString = () => {
-  const words = ["a Software Engineer", "Videographer", "a Foodie", "Traveler", "Streamer"];
+  const words = ["a Software Engineer", "a Videographer", "a Foodie", "a Traveler", "a Streamer"];
   const [index, setIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [typing, setTyping] = useState(true);
