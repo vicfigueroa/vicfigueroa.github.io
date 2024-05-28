@@ -54,12 +54,12 @@
 .skillTitle {
   width: 100%; /* Ensures the title takes the full width of the section */
   text-align: center; /* Center-aligns the title */
-  color: #E493B3;
+  color: #A79277;
 }
 
 .skill {
   background-color: white;
-  border-color: pink;
+  border-color: #A79277;
   border-style: solid;
   border-width: thin;
   margin: 3px;
@@ -75,8 +75,8 @@
 }
 
 .skill:hover {
-  background-color: pink;
-  color: gray;
+  background-color: #A79277;
+  color: #FFF2E1;
 }
 
 /* DynamicString.css */
@@ -90,8 +90,8 @@
 .typing-text {
   white-space: nowrap;
   overflow: hidden;
-  color: #E493B3;
-  border-right: 0.15em solid #000; /* Adjust color as needed */
+  color: #A79277;
+  border-right: 0.10em solid #000;
   animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -110,7 +110,7 @@
     border-color: transparent;
   }
   50% {
-    border-color: black; /* Adjust color as needed */
+    border-color: #A79277 /* Adjust color as needed */
   }
 }
 

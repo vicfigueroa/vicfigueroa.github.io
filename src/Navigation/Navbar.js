@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light justify-content-center">
-         <img src={process.env.PUBLIC_URL + '/acpic.png'} width="10%" height="10%" />
+         <img src={process.env.PUBLIC_URL + '/acpic.PNG'} width="10%" height="10%" />
         <h1>Victoria Figueroa</h1>
         <ul className="navbar-nav">
         <li className='nav-item'>

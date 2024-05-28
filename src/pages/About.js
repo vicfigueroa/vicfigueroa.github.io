@@ -7,7 +7,7 @@ const About = () => {
             <h1>Welcome!</h1>
             <div className="about-container">
                 <div className="about-pic-container">
-                    <img src="japanpfp.jpg" alt="japanpfp" className="pic" />
+                    <img src="japanpfp.JPG" alt="japanpfp" className="pic" />
                 </div>
                 <div className="about-bio-container">
                     <p>I am currently an Associate Software Engineer at Domenix and based out of the DMV area.
