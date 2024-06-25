@@ -18,7 +18,6 @@ const Skills = () => {
                 <span className='skill'>Express</span>
                 <span className='skill'>MongoDB</span>
                 <span className='skill'>Restful API Development</span>
-                <span className='skill'>React</span>
             </div>
             <div className='skill-section'>
                 <h4 className='skillTitle'>Developer Tools</h4>
