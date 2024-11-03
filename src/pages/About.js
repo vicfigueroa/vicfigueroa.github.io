@@ -10,7 +10,7 @@ const About = () => {
                     <img src="japanpfp.JPG" alt="japanpfp" className="pic" />
                 </div>
                 <div className="about-bio-container">
-                    <p>I am currently an Associate Software Engineer at Domenix and based out of the DMV area.
+                    <p>I am currently an Analyst at IT Cadre and based out of the DMV area.
                         I received a B.A. in Film and Video Studies from George Mason University.
                         When I'm not working I enjoy traveling, streaming, and hanging out with friends!
 
